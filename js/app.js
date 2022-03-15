@@ -2,7 +2,7 @@ const linesDiv = document.getElementById("lines");
 const body = document.querySelector("body");
 const message = "Arvore!";
 
-let qtdLines = 30;
+let qtdLines = 20;
 let qtdSquares = 1;
 let qtdTrunk = 5;
 let qtdLetters = message.length;
@@ -59,7 +59,7 @@ const drawTrunk = () => {
   }
 };
 
-const addCluds = () => {
+const addClouds = () => {
   const cloudContainer = document.createElement("div");
   cloudContainer.classList.add("x1");
   const cloudItem = document.createElement("div");
@@ -76,4 +76,4 @@ setInterval(() => {
   }
 }, 100);
 
-addCluds();
+addClouds();
